@@ -10,8 +10,8 @@ app.get('/get',function (req, res) {
   var transporter = mailer.createTransport({
     service : 'gmail',
     auth : {
-      user: 'triashish7@gmail.com',
-      pass: 'Ashthegr8'
+      user: '-',
+      pass: ''
     }
   });
 
