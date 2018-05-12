@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer",
+  "name": "Nodemailer",
   "version": "1.0.0",
   "description": "Uses node-mailer module to send emails",
   "main": "index.js",
