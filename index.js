@@ -1,4 +1,4 @@
-var mailer = require('nodemailer'); // to send emails
+var mailer = require('nodemailer'); // nodemailer module to send emails
 var bodyParser = require('body-parser') // to get data from form and supply it to mailOptions
 var express = require('express');
 var app = express();
@@ -22,7 +22,7 @@ app.get('/get',function (req, res) {
     to: req.query.to,  // body-parser gets data from form
     subject: req.query.subject,
     text: req.query.text,
-    html: req.query.html // you can add additional html content too
+    html: req.query.html // you can add additional html content here
   }
 
   console.log('Mail options set!');
