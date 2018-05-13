@@ -1,6 +1,8 @@
 # Node-mailer
 > Install dependencies before starting server
+
 > Code to install modules: npm install [package name]
+
 > Modules used: nodemailer, body-parser, expressjs, multer
 
 - body-parser − This is a node.js middleware for handling JSON, Raw, Text and URL encoded form data.
