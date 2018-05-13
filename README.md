@@ -1,7 +1,7 @@
 # Node-mailer
 > Install dependencies before starting server
 
-> Code to install modules: npm install [package name]
+> Code to install modules: npm install [package name] --save
 
 > Modules used: nodemailer, body-parser, expressjs, multer
 
