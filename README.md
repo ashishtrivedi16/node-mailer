@@ -5,6 +5,8 @@
 
 > Modules used: nodemailer, body-parser, expressjs, multer
 
+- nodemailer - Modeule for node.js to send emails.
+
 - body-parser − This is a node.js middleware for handling JSON, Raw, Text and URL encoded form data.
 
 - multer − This is a node.js middleware for handling multipart/form-data.
