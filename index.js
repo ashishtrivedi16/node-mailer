@@ -18,7 +18,7 @@ app.get('/get',function (req, res) {
   console.log('Transporter created');
 
   var mailOptions = { // carries mail info
-    fron: ' "Ashish" triashish7@gmail.com',
+    fron: '', //your email address
     to: req.query.to,  // body-parser gets data from form
     subject: req.query.subject,
     text: req.query.text,
